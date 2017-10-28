@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A28A5A8D-69FB-4CC4-9845-B4274E816107}</ProjectGuid>
+    <RootNamespace>framework</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Framework</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.26430.15</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\lib\</OutDir>
+    <IntDir>..\obj\$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+    <ExecutablePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+    <ExecutablePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\lib\</OutDir>
+    <IntDir>..\obj\$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\lib\framework_d.lib</OutputFile>
+      <AdditionalLibraryDirectories>D:\Program Files\DX\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\lib\framework_d.lib</OutputFile>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ProgramStady\Game\framework\include;D:\ProgramStady\Game\framework;D:\Program Files\DX\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\lib\framework.lib</OutputFile>
+      <AdditionalLibraryDirectories>D:\Program Files\DX\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ProgramStady\Game\framework\include;D:\ProgramStady\Game\framework;D:\Program Files\DX\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\lib\framework.lib</OutputFile>
+      <AdditionalLibraryDirectories>D:\Program Files\DX\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="common\Man.cpp" />
+    <ClCompile Include="common\SelectedList.cpp" />
+    <ClCompile Include="debug\DebugScreen.cpp" />
+    <ClCompile Include="directx\Manager.cpp" />
+    <ClCompile Include="game\GameSystem.cpp" />
+    <ClCompile Include="game\graphics\Camera.cpp" />
+    <ClCompile Include="game\graphics\gemoetry\Ray.cpp" />
+    <ClCompile Include="game\graphics\model\AnimeMesh.cpp" />
+    <ClCompile Include="game\graphics\model\BaseMesh.cpp" />
+    <ClCompile Include="game\graphics\model\Mesh.cpp" />
+    <ClCompile Include="game\graphics\sprite\Sprite.cpp" />
+    <ClCompile Include="game\graphics\sprite\Sprite3D.cpp" />
+    <ClCompile Include="game\graphics\sprite\SpriteAnim.cpp" />
+    <ClCompile Include="game\graphics\texture\Texture.cpp" />
+    <ClCompile Include="game\utl\File.cpp" />
+    <ClCompile Include="script\lapi.c" />
+    <ClCompile Include="script\lauxlib.c" />
+    <ClCompile Include="script\lbaselib.c" />
+    <ClCompile Include="script\lbitlib.c" />
+    <ClCompile Include="script\lcode.c" />
+    <ClCompile Include="script\lcorolib.c" />
+    <ClCompile Include="script\lctype.c" />
+    <ClCompile Include="script\ldblib.c" />
+    <ClCompile Include="script\ldebug.c" />
+    <ClCompile Include="script\ldo.c" />
+    <ClCompile Include="script\ldump.c" />
+    <ClCompile Include="script\lfunc.c" />
+    <ClCompile Include="script\lgc.c" />
+    <ClCompile Include="script\linit.c" />
+    <ClCompile Include="script\liolib.c" />
+    <ClCompile Include="script\llex.c" />
+    <ClCompile Include="script\lmathlib.c" />
+    <ClCompile Include="script\lmem.c" />
+    <ClCompile Include="script\loadlib.c" />
+    <ClCompile Include="script\lobject.c" />
+    <ClCompile Include="script\lopcodes.c" />
+    <ClCompile Include="script\loslib.c" />
+    <ClCompile Include="script\lparser.c" />
+    <ClCompile Include="script\lstate.c" />
+    <ClCompile Include="script\lstring.c" />
+    <ClCompile Include="script\lstrlib.c" />
+    <ClCompile Include="script\ltable.c" />
+    <ClCompile Include="script\ltablib.c" />
+    <ClCompile Include="script\ltm.c" />
+    <ClCompile Include="script\lua.c" />
+    <ClCompile Include="script\luac.c" />
+    <ClCompile Include="script\lundump.c" />
+    <ClCompile Include="script\lvm.c" />
+    <ClCompile Include="script\lzio.c" />
+    <ClCompile Include="windows\WindowCreate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\common\Common.h" />
+    <ClInclude Include="..\include\common\Env.h" />
+    <ClInclude Include="..\include\common\Man.h" />
+    <ClInclude Include="..\include\common\SelectedList.h" />
+    <ClInclude Include="..\include\debug\Debug.h" />
+    <ClInclude Include="..\include\debug\DebugScreen.h" />
+    <ClInclude Include="..\include\debug\DebugScreenInterface.h" />
+    <ClInclude Include="..\include\debug\DebugScreenItem.h" />
+    <ClInclude Include="..\include\debug\DebugScreenItemNumber.hpp" />
+    <ClInclude Include="..\include\directx\graphics\Sprite3DImpl.h" />
+    <ClInclude Include="..\include\directx\graphics\SpriteImpl.h" />
+    <ClInclude Include="..\include\directx\graphics\TextureImpl.h" />
+    <ClInclude Include="..\include\directx\input\JoyStatcManagerImpl.h" />
+    <ClInclude Include="..\include\directx\input\KeyManagerImpl.h" />
+    <ClInclude Include="..\include\directx\input\KeyTable.h" />
+    <ClInclude Include="..\include\directx\Manager.h" />
+    <ClInclude Include="..\include\game\GameSystem.h" />
+    <ClInclude Include="..\include\game\graphics\Camera.h" />
+    <ClInclude Include="..\include\game\graphics\gemoetry\Ray.h" />
+    <ClInclude Include="..\include\game\graphics\model\AnimeMesh.h" />
+    <ClInclude Include="..\include\game\graphics\model\BaseMesh.h" />
+    <ClInclude Include="..\include\game\graphics\model\Mesh.h" />
+    <ClInclude Include="..\include\game\graphics\sprite\Sprite.h" />
+    <ClInclude Include="..\include\game\graphics\sprite\Sprite3D.h" />
+    <ClInclude Include="..\include\game\graphics\sprite\SpriteAnim.h" />
+    <ClInclude Include="..\include\game\graphics\sprite\SpriteInterface.h" />
+    <ClInclude Include="..\include\game\graphics\texture\Texture.h" />
+    <ClInclude Include="..\include\game\utl\Array2D.h" />
+    <ClInclude Include="..\include\game\utl\File.h" />
+    <ClInclude Include="..\include\script\lapi.h" />
+    <ClInclude Include="..\include\script\lauxlib.h" />
+    <ClInclude Include="..\include\script\lcode.h" />
+    <ClInclude Include="..\include\script\lctype.h" />
+    <ClInclude Include="..\include\script\ldebug.h" />
+    <ClInclude Include="..\include\script\ldo.h" />
+    <ClInclude Include="..\include\script\lfunc.h" />
+    <ClInclude Include="..\include\script\lgc.h" />
+    <ClInclude Include="..\include\script\llex.h" />
+    <ClInclude Include="..\include\script\llimits.h" />
+    <ClInclude Include="..\include\script\lmem.h" />
+    <ClInclude Include="..\include\script\lobject.h" />
+    <ClInclude Include="..\include\script\lopcodes.h" />
+    <ClInclude Include="..\include\script\lparser.h" />
+    <ClInclude Include="..\include\script\lstate.h" />
+    <ClInclude Include="..\include\script\lstring.h" />
+    <ClInclude Include="..\include\script\ltable.h" />
+    <ClInclude Include="..\include\script\ltm.h" />
+    <ClInclude Include="..\include\script\lua.h" />
+    <ClInclude Include="..\include\script\lua.hpp" />
+    <ClInclude Include="..\include\script\luaconf.h" />
+    <ClInclude Include="..\include\script\lualib.h" />
+    <ClInclude Include="..\include\script\lundump.h" />
+    <ClInclude Include="..\include\script\lvm.h" />
+    <ClInclude Include="..\include\script\lzio.h" />
+    <ClInclude Include="windows\WindowCreate.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

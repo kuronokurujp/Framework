@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{ab4942ca-1317-4e80-97a8-728a920a4c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\graphics">
+      <UniqueIdentifier>{2ac4d91a-ec76-4af1-8ac4-347a27098e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\graphics\model">
+      <UniqueIdentifier>{7274d2be-ef3b-4d6c-b83a-441238efed1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\graphics\gemoetry">
+      <UniqueIdentifier>{1b51e72a-99dd-4d40-9a7e-355506a0f5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\graphics\sprite">
+      <UniqueIdentifier>{938407ef-94ea-4f24-ac8f-3edc9e77aaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\graphics\texture">
+      <UniqueIdentifier>{a4b7d74e-1978-45bc-afae-403537db3c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\utl">
+      <UniqueIdentifier>{4f63f275-45b8-46fc-98f6-bd767496efcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{5bdf2475-cb6e-4bfd-a179-75ec7dce6336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx">
+      <UniqueIdentifier>{6cba5649-d7a0-4c72-91ec-11d5880d7e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx\graphics">
+      <UniqueIdentifier>{148f01d7-b82c-4cd7-9ab3-1e9e8ac833b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx\input">
+      <UniqueIdentifier>{929c66d8-1add-4c80-9274-bc8dcd617f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx\sound">
+      <UniqueIdentifier>{850386e6-887d-430f-8638-f6f0db76f53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{aa4cc972-32c3-43ba-a814-845025bbcf8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{b86e7ffd-050d-4280-97ed-76241b47b679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{900861f9-2247-49d8-bfc8-349c85fb1592}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game\GameSystem.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\graphics\Camera.cpp">
+      <Filter>game\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\graphics\model\AnimeMesh.cpp">
+      <Filter>game\graphics\model</Filter>
+    </ClCompile>
+    <ClCompile Include="game\graphics\model\BaseMesh.cpp">
+      <Filter>game\graphics\model</Filter>
+    </ClCompile>
+    <ClCompile Include="game\graphics\model\Mesh.cpp">
+      <Filter>game\graphics\model</Filter>
+    </ClCompile>
+    <ClCompile Include="game\graphics\gemoetry\Ray.cpp">
+      <Filter>game\graphics\gemoetry</Filter>
+    </ClCompile>
+    <ClCompile Include="game\graphics\sprite\Sprite.cpp">
+      <Filter>game\graphics\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="game\graphics\sprite\Sprite3D.cpp">
+      <Filter>game\graphics\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="game\graphics\sprite\SpriteAnim.cpp">
+      <Filter>game\graphics\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="game\graphics\texture\Texture.cpp">
+      <Filter>game\graphics\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="game\utl\File.cpp">
+      <Filter>game\utl</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Man.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\SelectedList.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\Manager.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="windows\WindowCreate.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\DebugScreen.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lapi.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lauxlib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lbaselib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lbitlib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lcode.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lcorolib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lctype.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\ldblib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\ldebug.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\ldo.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\ldump.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lfunc.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lgc.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\linit.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\liolib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\llex.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lmathlib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lmem.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\loadlib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lobject.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lopcodes.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\loslib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lparser.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lstate.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lstring.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lstrlib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\ltable.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\ltablib.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\ltm.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lua.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\luac.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lundump.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lvm.c">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="script\lzio.c">
+      <Filter>script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\game\GameSystem.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\graphics\Camera.h">
+      <Filter>game\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\graphics\model\AnimeMesh.h">
+      <Filter>game\graphics\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\graphics\model\BaseMesh.h">
+      <Filter>game\graphics\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\graphics\model\Mesh.h">
+      <Filter>game\graphics\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\graphics\gemoetry\Ray.h">
+      <Filter>game\graphics\gemoetry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\graphics\sprite\Sprite.h">
+      <Filter>game\graphics\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\graphics\sprite\Sprite3D.h">
+      <Filter>game\graphics\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\graphics\sprite\SpriteAnim.h">
+      <Filter>game\graphics\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\graphics\sprite\SpriteInterface.h">
+      <Filter>game\graphics\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\graphics\texture\Texture.h">
+      <Filter>game\graphics\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\utl\Array2D.h">
+      <Filter>game\utl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game\utl\File.h">
+      <Filter>game\utl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Env.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Man.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\SelectedList.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\directx\Manager.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\directx\graphics\Sprite3DImpl.h">
+      <Filter>directx\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\directx\graphics\SpriteImpl.h">
+      <Filter>directx\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\directx\graphics\TextureImpl.h">
+      <Filter>directx\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\directx\input\JoyStatcManagerImpl.h">
+      <Filter>directx\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\directx\input\KeyManagerImpl.h">
+      <Filter>directx\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\directx\input\KeyTable.h">
+      <Filter>directx\input</Filter>
+    </ClInclude>
+    <ClInclude Include="windows\WindowCreate.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\debug\Debug.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\debug\DebugScreen.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\debug\DebugScreenInterface.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\debug\DebugScreenItem.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\debug\DebugScreenItemNumber.hpp">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lapi.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lauxlib.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lcode.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lctype.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\ldebug.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\ldo.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lfunc.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lgc.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\llex.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\llimits.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lmem.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lobject.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lopcodes.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lparser.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lstate.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lstring.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\ltable.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\ltm.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lua.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lua.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\luaconf.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lualib.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lundump.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lvm.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lzio.h">
+      <Filter>script</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

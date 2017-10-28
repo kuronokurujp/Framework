@@ -1,0 +1,2 @@
+directX9がないと動かない。
+framwork内でdirecx9を保持してframeworkフォルダを移動することでわざわざセッティングする手間をなくしたい。
