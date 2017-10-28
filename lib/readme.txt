@@ -1,17 +1,7 @@
-ì¬‚µ‚½ƒtƒŒ[ƒ€ƒ[ƒN‚ÌŠT—v‹y‚ÑŽg—p•û–@
+ãƒ©ã‚¤ãƒ–ãƒ©ãƒªä½œæˆã®å­¦ç¿’ã‚’å…¼ã­ã¦ç‹¬è‡ªã§ã‚²ãƒ¼ãƒ ãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¯ãƒ¼ã‚¯ã‚’ä½œæˆ
 
-Žå‚È–Ú“I
-	ƒQ[ƒ€ì¬‚Ì’Zk‰»
+é–‹ç™ºç’°å¢ƒ
+visual stuido 2017
+c/c++
 
-ÅI–Ú•W
-	2D/3D‚ÌƒQ[ƒ€ì¬‚Ì’Zk‰»
-	ƒ}ƒ‹ƒ`ƒvƒ‰ƒbƒgƒtƒH[ƒ€‚Å‚Ì‘Î‰ž(­‚È‚­‚Æ‚àPSP/WIN‚Å‚Í“®‚©‚µ‚½‚¢)
-
-ƒfƒoƒbƒO‹@”\
-	ƒQ[ƒ€’†‚É’l‚ðÝ’è‚Å‚«‚é‚æ‚¤‚É‚µ‚½B
-
-	}
-		ƒ‹[ƒg
-			ƒV[ƒ“
-				•ÏX‚·‚é’l€–Ú
-			ƒV[ƒ“
+DirectX 9.0
